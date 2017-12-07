@@ -9,7 +9,7 @@ app.set('views', 'views');
 app.set('view engine', 'hbs');
 
 app.get('/', function(req, res) {
-    res.render('gghome', {
+    res.render('home', {
   });
 });
 
